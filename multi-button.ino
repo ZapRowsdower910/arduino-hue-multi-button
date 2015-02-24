@@ -133,7 +133,7 @@ void setup(){
   doBlink = true;
   latchStopTime = millis() + (blinkDelay * 4);
   
-  wdt_enable(WDTO_1S);
+  wdt_enable(WDTO_2S);
   Serial.println("setup complete");
 }
 
